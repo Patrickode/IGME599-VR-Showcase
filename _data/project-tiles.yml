@@ -1,0 +1,71 @@
+- class: style1
+  image: images/pic01.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style2
+  image: images/pic02.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style3
+  image: images/pic03.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style4
+  image: images/pic04.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style5
+  image: images/pic05.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style6
+  image: images/pic06.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style2
+  image: images/pic07.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style3
+  image: images/pic08.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style1
+  image: images/pic09.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style5
+  image: images/pic10.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style6
+  image: images/pic11.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.
+
+- class: style4
+  image: images/pic12.jpg
+  link: generic.html
+  name: Project Name
+  description: One line description of the project.

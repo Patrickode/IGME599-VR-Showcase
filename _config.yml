@@ -1,0 +1,4 @@
+liquid:
+  error-mode: warn
+  strict-variables: true
+  strict-filters: true
