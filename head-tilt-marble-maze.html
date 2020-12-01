@@ -1,0 +1,25 @@
+---
+layout: lay_project
+title: Head Tilt Marble Maze - RIT Experimental VR Showcase
+project-name: Head Tilt Marble Maze
+developers:
+    - Patrick Mitchell
+media:
+    type: image
+    link: images/pic13.jpg
+---
+<p>
+    In this prototype, specific objects, which we’ll call boards for clarity, tilt along with the player’s head,
+    allowing them to roll a ball around like a real-world marble maze. It feels very intuitive, but it would need extra
+    spice to truly become its own thing. For example, having the player move and platform around on the boards.
+</p>
+<p>
+    Originally, the boards tracked the rotation of the head one-to-one, meaning that yaw was accounted for, not just
+    pitch and roll. This made it so SteamVR’s built-in quick turn would send the ball flying, since the boards would
+    rotate just as fast as the player.
+</p>
+<p>
+    The way around this was to get the local upward vector of the player’s headset, take the cross product between that
+    vector and the global upward vector, get the signed angle between the two vectors using the cross-product vector as
+    the axis, then using the angle and axis to set the rotation of the boards.
+</p>

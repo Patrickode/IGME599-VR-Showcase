@@ -1,0 +1,26 @@
+---
+layout: lay_default
+title: Project Name - RIT Experimental VR Showcase
+---
+<!-- Main -->
+<div id="main">
+    <div class="inner project-div">
+        <h1>{{ page.project-name }}</h1>
+        <h2 class="project-developer-header">
+            {% capture dev-string %}
+            {% for dev in page.developers %}, {{dev}}{% endfor %}
+            {% endcapture %}
+            {{ dev-string | remove_first: ', '}}
+        </h2>
+
+        <span class="image main">
+            {% if page.media.type == "video"%}
+            <video src="{{ page.media.link }}"></video>
+            {% else %}
+            <img src="{{ page.media.link }}" alt="{{ page.media.alt }}" />
+            {% endif %}
+        </span>
+
+        {{ content }}
+    </div>
+</div>

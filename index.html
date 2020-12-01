@@ -2,54 +2,38 @@
 layout: lay_default
 title: RIT Experimental VR Showcase
 ---
-<!-- Wrapper -->
-<div id="wrapper">
+<!-- Main -->
+<div id="main">
+	<div class="inner">
+		<header>
+			<h1>
+				This is a collection of VR Experiments by five of us RIT students, as part of an Independent
+				Study.
+			</h1>
+			<p>
+				The focus of these projects was to determine what worked, what didn't work, and why. Click on
+				any of the projects below to read more about them.
+			</p>
+		</header>
 
-	{% include inc_header-and-menu.html %}
+		<!-- Project Tiles -->
+		<section class="tiles">
+			{% for item in site.data.project-tiles %}
 
-	<!-- Main -->
-	<div id="main">
-		<div class="inner">
-			<header>
-				<h1>
-					This is a collection of VR Experiments by five of us RIT students, as part of an Independent
-					Study.
-				</h1>
-				<p>
-					The focus of these projects was to determine what worked, what didn't work, and why. Click on
-					any of the projects below to read more about them.
-				</p>
-			</header>
+			<article class="{{item.class}}">
+				<span class="image">
+					<img src="{{item.image}}" alt="" />
+				</span>
+				<a href="{{item.link}}">
+					<h2>{{item.name}}</h2>
+					<div class="content">
+						<p>{{item.description}}</p>
+					</div>
+				</a>
+			</article>
 
-			<!-- Project Tiles -->
-			<section class="tiles">
-				{% for item in site.data.project-tiles %}
+			{% endfor %}
+		</section>
 
-				<article class="{{item.class}}">
-					<span class="image">
-						<img src="{{item.image}}" alt="" />
-					</span>
-					<a href="{{item.link}}">
-						<h2>{{item.name}}</h2>
-						<div class="content">
-							<p>{{item.description}}</p>
-						</div>
-					</a>
-				</article>
-
-				{% endfor %}
-			</section>
-
-		</div>
 	</div>
-
-	{% include inc_footer.html %}
-
 </div>
-
-<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>

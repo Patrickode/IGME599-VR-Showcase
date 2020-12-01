@@ -3327,3 +3327,28 @@ input, select, textarea {
 			}
 
 		}
+
+/* Custom CSS */
+
+	header > p {
+		margin-bottom: 0;
+	}
+	.tiles {
+		margin-top: 0.5em;
+	}
+
+	.project-div p {
+		margin-bottom: 0.75em;
+	}
+
+	.project-developer-header {
+		font-size: 1em;
+		margin-left: 0.15em;
+		margin-top: -2em;
+	}
+
+		@media screen and (max-width: 736px) {
+			.project-developer-header {
+				font-size: 0.75em;
+			}
+		}
