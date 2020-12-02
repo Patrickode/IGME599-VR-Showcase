@@ -24,21 +24,21 @@
 
 - class: style5
   image: images/pic05.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: arm-cannon.html
+  name: Metroid VR - Arm Cannon
+  description: Charge and shoot like Samus Aran with her Chozo arm cannon. 
 
 - class: style6
   image: images/pic06.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: parry-projectiles.html
+  name: Metroid VR - Parrying Projectiles
+  description: Swing or block with your arm cannon to deflect projectiles.
 
 - class: style2
   image: images/pic07.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: grapple-beam.html
+  name: Metroid VR - Grapple Beam
+  description: Point at objects with your hand and tether them with a grapple beam.
 
 - class: style3
   image: images/pic08.jpg
