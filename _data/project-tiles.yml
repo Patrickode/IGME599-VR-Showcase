@@ -42,21 +42,21 @@
 
 - class: style3
   image: images/pic08.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: pockets.html
+  name: Deep Pockets
+  description: Search your pockets for items, pull back whatever comes to hand.
 
 - class: style1
   image: images/pic09.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: grappling-cook.html
+  name: Grappling Cook
+  description: Use an unorthodox multi-tool to prepare and cook ingredients.
 
 - class: style5
   image: images/pic10.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: heist.html
+  name: Heist
+  description: A local co-op experience where a "hacker" and "infiltrator" work together.
 
 - class: style6
   image: images/pic11.jpg
