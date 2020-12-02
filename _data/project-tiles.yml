@@ -12,9 +12,9 @@
 
 - class: style3
   image: images/pic03.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: web-slinging.html
+  name: Movement - Web Slinging
+  description: Point at grapple points and flick to launch yourself like Spider-Man.
 
 - class: style4
   image: images/pic04.jpg
