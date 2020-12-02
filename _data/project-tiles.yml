@@ -6,9 +6,9 @@
 
 - class: style2
   image: images/pic02.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: skateboard.html
+  name: Movement - Skateboard
+  description: Lean your body to move yourself while riding a skateboard.
 
 - class: style3
   image: images/pic03.jpg
