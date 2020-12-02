@@ -18,9 +18,9 @@
 
 - class: style4
   image: images/pic04.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: parallel-worlds.html
+  name: Camera - Parallel Worlds
+  description: Each eye of the headset sees a different version of the game world.
 
 - class: style5
   image: images/pic05.jpg
