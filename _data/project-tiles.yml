@@ -72,9 +72,9 @@
 
 - class: style6
   image: images/pic11.jpg
-  link: generic.html
-  name: Project Name
-  description: One line description of the project.
+  link: jump-pads-and-vortexes.html
+  name: Jump Pads and Vortexes
+  description: Exploring unconventional movement options.
 
 - class: style4
   image: images/pic12.jpg
