@@ -82,7 +82,7 @@
   name: Throw Your Head
   description: Don't try this at home. Or ever.
 
-  - class: style1
+- class: style1
   image: images/pic01.jpg
   link: laser-propulsion.html
   name: Laser Propulsion
