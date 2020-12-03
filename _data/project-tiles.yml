@@ -93,3 +93,9 @@
   link: physics-brush.html
   name: Physics Brush
   description: Draw 3D shapes with your motion controllers.
+
+- class: style2
+  image: images/pic07.jpg
+  link: bullet-head.html
+  name: Bullet Head
+  description: Aim with your whole body!
