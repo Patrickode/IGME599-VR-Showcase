@@ -22,6 +22,12 @@
   name: Camera - Parallel Worlds
   description: Each eye of the headset sees a different version of the game world.
 
+- class: style4
+  image: images/pic04.jpg
+  link: fixed-camera.html
+  name: Camera - Fixed Camera
+  description: The player sees the world and their avatar from a third person fixed camera perspective.
+
 - class: style5
   image: images/pic05.jpg
   link: arm-cannon.html
