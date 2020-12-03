@@ -24,16 +24,16 @@
 
 - class: style4
   image: images/pic04.jpg
-  link: fixed-camera.html
-  name: Camera - Fixed Camera
-  description: The player sees the world and their avatar from a third person fixed camera perspective.
-  
-  class: style4
-  image: images/pic04.jpg
   link: camera-hands.html
   name: Camera - Hand Eyes
   description: Your eyes are attached to your hands instead of your head.
 
+- class: style4
+  image: images/pic04.jpg
+  link: fixed-camera.html
+  name: Camera - Fixed Camera
+  description: The player sees the world and their avatar from a third person fixed camera perspective.
+  
 - class: style5
   image: images/pic05.jpg
   link: arm-cannon.html
