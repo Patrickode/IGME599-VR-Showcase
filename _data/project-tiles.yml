@@ -87,3 +87,15 @@
   link: laser-propulsion.html
   name: Laser Propulsion
   description: Propel yourself with the power of lasers!
+
+- class: style3
+  image: images/pic03.jpg
+  link: physics-brush.html
+  name: Physics Brush
+  description: Draw 3D shapes with your motion controllers.
+
+- class: style2
+  image: images/pic07.jpg
+  link: bullet-head.html
+  name: Bullet Head
+  description: Aim with your whole body!
