@@ -7,6 +7,7 @@ title: Project Name - RIT Experimental VR Showcase
     <div class="inner project-div">
         <h1>{{ page.project-name }}</h1>
         <h2 class="project-developer-header">
+            {% comment %} Put ", [name of dev]" for each dev, then remove the first ", ". {% endcomment %}
             {% capture dev-string %}
             {% for dev in page.developers %}, {{dev}}{% endfor %}
             {% endcapture %}
@@ -14,10 +15,27 @@ title: Project Name - RIT Experimental VR Showcase
         </h2>
 
         <span class="image main">
-            {% if page.media.type == "video"%}
-            <video src="{{ page.media.link }}"></video>
+            {% comment %} Local video file {% endcomment %}
+            {% if page.media.type contains "video"%}
+                <div class="_16by9-container">
+                    <video src="{{ page.media.link }}" controls>
+                        Your browser does not support the HTML5 video element. View the video 
+                        <a href="{{ page.media.link }}">here</a>.
+                    </video>
+                </div>
+            {% comment %} Youtube Embed Link {% endcomment %}
+            {% elsif page.media.type contains "youtube"%}
+                {% assign split-link = page.media.link | split:"?"%}
+                <div class="_16by9-container">
+                    <iframe
+			    		src="{{ split-link[0] | append:'?modestbranding=1;showinfo=0;rel=0;' }}"
+			    		allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture"
+			    		allowfullscreen="" frameborder="0">
+			    	</iframe>
+                </div>
+            {% comment %} Anything else (assumed to be an image) {% endcomment %}
             {% else %}
-            <img src="{{ page.media.link }}" alt="{{ page.media.alt }}" />
+                <img src="{{ page.media.link }}" alt="{{ page.media.alt }}" />
             {% endif %}
         </span>
 

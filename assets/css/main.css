@@ -2618,7 +2618,7 @@ input, select, textarea {
 					height: 100%;
 					opacity: 1.0;
 					z-index: 1;
-					opacity: 0.8;
+					opacity: 0.5;
 				}
 
 				.tiles article > .image:after {
@@ -2638,7 +2638,7 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0.25;
+					opacity: 0.125;
 					z-index: 2;
 				}
 
@@ -3330,23 +3330,46 @@ input, select, textarea {
 
 /* Custom CSS */
 
+	/* Make the header's top padding a little less generous */
+	#header {
+		padding-top: 5em;
+	}
+
+	/* Make the project tiles on the main page a good distance from the header */
 	header > p {
 		margin-bottom: 0;
+		font-size: 1.15em;
 	}
 	.tiles {
 		margin-top: 0.5em;
 	}
 
+	/* Preserve the aspect ratio of main media on the project pages */
+	._16by9-container {
+		position: relative;
+		overflow: hidden;
+		height: 0;
+		padding-bottom: 56.25%;
+	}
+	._16by9-container * {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Reduce the padding underneath the p tags in the project pages */
 	.project-div p {
 		margin-bottom: 0.75em;
 	}
 
+	/* Make the dev list under the header a good distance from the header */
 	.project-developer-header {
 		font-size: 1em;
 		margin-left: 0.15em;
 		margin-top: -2em;
 	}
-
 		@media screen and (max-width: 736px) {
 			.project-developer-header {
 				font-size: 0.75em;
