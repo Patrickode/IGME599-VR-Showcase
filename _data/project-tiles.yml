@@ -99,3 +99,15 @@
   link: bullet-head.html
   name: Bullet Head
   description: Aim with your whole body!
+
+- class: style1
+  image: images/pic01.jpg
+  link:  boomerang.html
+  name: Boomerang
+  description: (boomerang description here)
+
+- class: style1
+image: images/pic01.jpg
+link:  dating-sim.html
+name: Dating Sim
+description: (dating sim description here)
