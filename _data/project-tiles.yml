@@ -107,7 +107,7 @@
   description: (boomerang description here)
 
 - class: style1
-image: images/pic01.jpg
-link:  dating-sim.html
-name: Dating Sim
-description: (dating sim description here)
+  image: images/pic01.jpg
+  link:  dating-sim.html
+  name: Dating Sim
+  description: (dating sim description here)
