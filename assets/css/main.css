@@ -3448,7 +3448,7 @@ input, select, textarea {
 	}
 	body:not(.is-touch) .tiles article:hover h2,
 	body:not(.is-touch) .tiles article:hover .content {
-		background-color: rgba(0, 0, 0, 0.4);
+		background-color: rgba(0, 0, 0, 0.5);
 	}
 
 	/* Counteract letter-spacing adding space to the end of the tile h2s (no :last-letter selector :c) */
