@@ -22,19 +22,25 @@
   name: Camera - Parallel Worlds
   description: Each eye of the headset sees a different version of the game world.
 
-- class: style4
+- class: style5
   image: images/pic04.jpg
   link: camera-hands.html
   name: Camera - Hand Eyes
   description: Your eyes are attached to your hands instead of your head.
 
-- class: style4
+- class: style6
   image: images/pic04.jpg
   link: fixed-camera.html
   name: Camera - Fixed Camera
   description: The player sees the world and their avatar from a third person fixed camera perspective.
+
+- class: style4
+  image: images/pic04.jpg
+  link: #
+  name: Psychic Slingshot
+  description: Fling objects Angry Birds style from a distance.
   
-- class: style5
+- class: style2
   image: images/pic05.jpg
   link: arm-cannon.html
   name: Metroid VR - Arm Cannon
@@ -99,3 +105,33 @@
   link: bullet-head.html
   name: Bullet Head
   description: Aim with your whole body!
+
+- class: style5
+  image: images/pic07.jpg
+  link: #
+  name: Block Swords
+  description: Fight a training dummy with a pair of swords.
+
+- class: style4
+  image: images/pic07.jpg
+  link: #
+  name: TeleBall
+  description: Throw a ball to teleport to its landing spot.
+
+- class: style6
+  image: images/pic07.jpg
+  link: #
+  name: Eye Camera Thief
+  description: Attempt to steal valuables with only your peripheral vision to avoid detection.
+
+- class: style1
+  image: images/pic07.jpg
+  link: #
+  name: Gesture Shoot and Teleport
+  description: Fire bullets that teleport you to what they hit by thrusting / waving your hands.
+
+- class: style1
+  image: images/pic07.jpg
+  link: #
+  name: Overpowered Face Laser
+  description: Fend off waves of encroaching dummies with your face laser, without harming innocent dummies.
