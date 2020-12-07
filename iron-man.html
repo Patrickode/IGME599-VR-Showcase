@@ -1,0 +1,19 @@
+---
+layout: lay_project
+title: Generic Project Page - RIT Experimental VR Showcase
+project-name: Movement - Iron Man
+developers:
+    - Mark Lipina
+media:
+    type: video
+    link: videos/VR_IronMan.mp4
+---
+<p>
+    I wanted to take my own stab at Iron Man VR. I implemented the ability to fly with hand thrusters, the ability to fire your thrusters at objects to push them away, and a small city area with snow particles in the air to show your speed and to test out traversal. 
+</p>
+<p>
+    I expected to feel more motion-sick from this movement scheme, but it didn’t bother me too much - the inability to apply rotations to your player character may have helped in that regard. The slow acceleration and deceleration didn’t feel super “iron man” to me, but that could be fixed with some value tweaking, and overall the basic movement felt like a solid foundation. 
+</p>
+<p>
+    One issue is that to fly laterally, you need to specifically aim your hands behind you, where Iron Man would rotate his body as he flies so that his hands aim along his “local down vector”. I didn’t have time to test out the ability to rotate your body to align your up-vector with your velocity at higher speeds, but I feel like that would pose a pretty significant motion sickness hazard. Developers of a game with this type of movement scheme might have a difficult problem to solve there. It could be mitigated by a change in level design to more situate a certain type of traversal, for example more vertical levels instead of horizontal, if horizontal motion is awkward.
+</p>

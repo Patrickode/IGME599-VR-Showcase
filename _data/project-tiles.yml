@@ -16,6 +16,18 @@
   name: Movement - Web Slinging
   description: Point at grapple points and flick to launch yourself like Spider-Man.
 
+- class: style3
+  image: images/vr_kayak.png
+  link: kayaking_movement.html
+  name: Movement - Kayaking
+  description: Sit down and paddle around in a kayak.
+
+  class: style2
+  image: images/vr_ironman.jpg
+  link: iron-man.html
+  name: Movement - Iron Man
+  description: Fly around a city and blast cubes like Iron Man.
+
 - class: style4
   image: images/pic04.jpg
   link: parallel-worlds.html
@@ -29,10 +41,22 @@
   description: Your eyes are attached to your hands instead of your head.
 
 - class: style6
-  image: images/pic04.jpg
+  image: images/vr_fixed_camera.png
   link: fixed-camera.html
   name: Camera - Fixed Camera
   description: The player sees the world and their avatar from a third person fixed camera perspective.
+
+  class: style1
+  image: images/vr_scope.png
+  link: fps-scope-camera.html
+  name: Camera - Scope Vision
+  description: Toggle between standard first-person POV and video feed from your sniper scope.
+
+  class: style2
+  image: vr_force.jpg
+  link: force-powers.html
+  name: Force Power Object Interaction
+  description: Grab objects at a distance and move them with Star-Wars-y force powers.
 
 - class: style4
   image: images/pic04.jpg
@@ -51,6 +75,12 @@
   link: parry-projectiles.html
   name: Metroid VR - Parrying Projectiles
   description: Swing or block with your arm cannon to deflect projectiles.
+
+  class: style6
+  image: images/vr_doctor_strange.jpg
+  link: doctor_strange.html
+  name: Doctor Strange VR
+  description: Play a sorcerer and cast spells like Marvel's Doctor Strange.
 
 - class: style2
   image: images/pic07.jpg
