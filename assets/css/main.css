@@ -2572,7 +2572,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2618,7 +2618,7 @@ input, select, textarea {
 					height: 100%;
 					opacity: 1.0;
 					z-index: 1;
-					opacity: 0.5;
+					opacity: 0.75;
 				}
 
 				.tiles article > .image:after {
@@ -2638,7 +2638,7 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0.125;
+					opacity: 0.15;
 					z-index: 2;
 				}
 
@@ -2738,7 +2738,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.5;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -3429,4 +3429,29 @@ input, select, textarea {
 	.tiles article > .image img {
 		height: 100%;
 		object-fit: cover;
+	}
+
+	/* Give tile text a semi-transparent backing to help readability */
+	body:not(.is-touch) .tiles article h2,
+	body:not(.is-touch) .tiles article .content {
+		-moz-transition: max-height 0.5s ease, opacity 0.5s ease, background-color 0.2s ease;
+		-webkit-transition: max-height 0.5s ease, opacity 0.5s ease, background-color 0.2s ease;
+		-ms-transition: max-height 0.5s ease, opacity 0.5s ease, background-color 0.2s ease;
+		transition: max-height 0.5s ease, opacity 0.5s ease, background-color 0.2s ease;
+		background-color: transparent;
+		border-radius: 4px;
+	}
+	body:not(.is-touch) .tiles article h2,
+	body:not(.is-touch) .tiles article .content * {
+		padding: 0.5em;
+		text-align: center;
+	}
+	body:not(.is-touch) .tiles article:hover h2,
+	body:not(.is-touch) .tiles article:hover .content {
+		background-color: rgba(0, 0, 0, 0.4);
+	}
+
+	/* Counteract letter-spacing adding space to the end of the tile h2s (no :last-letter selector :c) */
+	.tile-header-last-letter {
+		letter-spacing: 0;
 	}
