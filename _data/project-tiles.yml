@@ -78,7 +78,7 @@
 
   class: style6
   image: images/vr_doctor_strange.jpg
-  link: doctor_strange.html
+  link: doctor-strange.html
   name: Doctor Strange VR
   description: Play a sorcerer and cast spells like Marvel's Doctor Strange.
 
