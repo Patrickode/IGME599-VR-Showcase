@@ -3421,3 +3421,12 @@ input, select, textarea {
 		text-transform: none !important;
 		font-weight: 501;
 	}
+
+	/* If a tile image isn't the right size, set it's smallest dimension to fill the tile (will cause clipping) */
+	.tiles article > .image {
+		height: 100%;
+	}
+	.tiles article > .image img {
+		height: 100%;
+		object-fit: cover;
+	}
