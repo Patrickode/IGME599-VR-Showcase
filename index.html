@@ -27,7 +27,11 @@ title: RIT Experimental VR Showcase
 					<img src="{{item.image}}" alt="" />
 				</span>
 				<a href="{{item.link}}">
-					<h2>{{item.name}}</h2>
+					{% assign last-index = item.name.size | plus: -1 %}
+					<h2>
+						{{ item.name | slice: 0, last-index }}<span
+							class="tile-header-last-letter">{{ item.name | slice: last-index }}</span>
+					</h2>
 					<div class="content">
 						<p>{{item.description}}</p>
 					</div>

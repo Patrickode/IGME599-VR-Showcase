@@ -59,7 +59,7 @@
   description: Grab objects at a distance and move them with Star-Wars-y force powers.
 
 - class: style4
-  image: images/pic04.jpg
+  image: images/psychic-slingshot.png
   link: psychic-slingshot.html
   name: Psychic Slingshot
   description: Fling objects Angry Birds style from a distance.
@@ -137,7 +137,7 @@
   description: Aim with your whole body!
 
 - class: style5
-  image: images/pic07.jpg
+  image: images/block-swords.png
   link: block-swords.html
   name: Block Swords
   description: Fight a training dummy with a pair of swords.
