@@ -135,3 +135,14 @@
   link: overpowered-face-laser.html
   name: Overpowered Face Laser
   description: Fend off waves of encroaching dummies with your face laser, without harming innocent dummies.
+- class: style1
+  image: images/pic01.jpg
+  link:  boomerang.html
+  name: Boomerang
+  description: (boomerang description here)
+
+- class: style1
+  image: images/pic01.jpg
+  link:  dating-sim.html
+  name: Dating Sim
+  description: (dating sim description here)
