@@ -1,0 +1,23 @@
+---
+layout: lay_project
+title: Psychic Slingshot - RIT Experimental VR Showcase
+project-name: Psychic Slingshot
+developers:
+    - Patrick Mitchell
+media:
+    type: image
+    link: images/pic13.jpg
+    alt: If your media is an image, put some alt text for it here
+---
+<p>
+    This prototype allows a player to point at an object, telekinetically “grab” that object, and then send it flying by
+    pulling and releasing, like a slingshot. This works intuitively and it feels good to use, but to really make it come
+    together, it needs better indication. For example, controller-rumble as the player pulls on the “slingshot strings,”
+    a more robust arrow indicator on the object to fling, and the right amount of weight for each flingable object.
+</p>
+<p>
+    As a bonus, because I wanted to, I also added the ability to punch the objects in the scene and make them explode.
+    This was harder than I expected, because I used layers to distinguish objects, and Unity SteamVR’s hand colliders
+    are generated at runtime; thankfully, a reference to them is stored in each hand’s <code>HandPhysics.cs</code>
+    script.
+</p>

@@ -1,0 +1,25 @@
+---
+layout: lay_project
+title: Block Swords - RIT Experimental VR Showcase
+project-name: Block Swords
+developers:
+    - Patrick Mitchell
+media:
+    type: image
+    link: images/pic13.jpg
+    alt: If your media is an image, put some alt text for it here
+---
+<p>
+    Despite this prototype being very light on the “experimental” part of experimental VR, it prompted a lot of
+    interesting and important questions. How does one handle the sword’s collision? Is that collision different between
+    parts of the scenery and “damageable” entities? How should the player’s hands react to that collision, since they’re
+    holding the swords? When should damage be applied to damageable entities? These aren’t questions with clear-cut
+    single answers, but they’re good to be aware of.
+</p>
+<p>
+    Making this prototype in Unity with SteamVR specifically introduced a few issues as well. One of them is the
+    alignment of the swords when grabbed; each of the SteamVR hands has a strange positional and rotational offset, so
+    grabbable objects need offset objects of their own to ensure they are oriented correctly when grabbed. For example,
+    the sword’s point needs to be pointed toward the outstretched thumb but angled slightly toward the other fingers to
+    feel just right.
+</p>

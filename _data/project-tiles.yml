@@ -36,7 +36,7 @@
 
 - class: style4
   image: images/pic04.jpg
-  link: #
+  link: psychic-slingshot.html
   name: Psychic Slingshot
   description: Fling objects Angry Birds style from a distance.
   
@@ -108,30 +108,30 @@
 
 - class: style5
   image: images/pic07.jpg
-  link: #
+  link: block-swords.html
   name: Block Swords
   description: Fight a training dummy with a pair of swords.
 
 - class: style4
   image: images/pic07.jpg
-  link: #
+  link: teleball.html
   name: TeleBall
   description: Throw a ball to teleport to its landing spot.
 
 - class: style6
   image: images/pic07.jpg
-  link: #
+  link: eye-camera-thief.html
   name: Eye Camera Thief
   description: Attempt to steal valuables with only your peripheral vision to avoid detection.
 
 - class: style1
   image: images/pic07.jpg
-  link: #
+  link: gesture-shoot-and-teleport.html
   name: Gesture Shoot and Teleport
   description: Fire bullets that teleport you to what they hit by thrusting / waving your hands.
 
 - class: style1
   image: images/pic07.jpg
-  link: #
+  link: overpowered-face-laser.html
   name: Overpowered Face Laser
   description: Fend off waves of encroaching dummies with your face laser, without harming innocent dummies.
