@@ -22,7 +22,7 @@
   name: Movement - Kayaking
   description: Sit down and paddle around in a kayak.
 
-  class: style2
+- class: style2
   image: images/vr_ironman.jpg
   link: iron-man.html
   name: Movement - Iron Man
@@ -46,13 +46,13 @@
   name: Camera - Fixed Camera
   description: The player sees the world and their avatar from a third person fixed camera perspective.
 
-  class: style1
+- class: style1
   image: images/vr_scope.png
   link: fps-scope-camera.html
   name: Camera - Scope Vision
   description: Toggle between standard first-person POV and video feed from your sniper scope.
 
-  class: style2
+- class: style2
   image: images/vr_force.jpg
   link: force-powers.html
   name: Force Power Object Interaction
@@ -76,7 +76,7 @@
   name: Metroid VR - Parrying Projectiles
   description: Swing or block with your arm cannon to deflect projectiles.
 
-  class: style6
+- class: style6
   image: images/vr_doctor_strange.jpg
   link: doctor-strange.html
   name: Doctor Strange VR
