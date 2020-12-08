@@ -1,3 +1,5 @@
+url: https://patrickode.github.io
+
 liquid:
   error-mode: warn
   strict-variables: true

@@ -1,9 +1,3 @@
-- class: style1
-  image: images/pic01.jpg
-  link: head-tilt-marble-maze.html
-  name: Head Tilt Marble Maze
-  description: Tilt your head to tilt objects in the scene and roll a ball around.
-
 - class: style2
   image: images/skateboard.png
   link: skateboard.html
@@ -63,7 +57,13 @@
   link: psychic-slingshot.html
   name: Psychic Slingshot
   description: Fling objects Angry Birds style from a distance.
-  
+
+- class: style1
+  image: images/pic01.jpg
+  link: head-tilt-marble-maze.html
+  name: Head Tilt Marble Maze
+  description: Tilt your head to tilt objects in the scene and roll a ball around.
+
 - class: style2
   image: images/metroid_vr.png
   link: arm-cannon.html
@@ -100,17 +100,17 @@
   name: Grappling Cook
   description: Use an unorthodox multi-tool to prepare and cook ingredients.
 
-- class: style5
-  image: images/heist.png
-  link: heist.html
-  name: Heist
-  description: A local co-op experience where a "hacker" and "infiltrator" work together.
-
 - class: style6
   image: images/pic11.jpg
   link: jump-pads-and-vortexes.html
   name: Jump Pads and Vortexes
   description: Exploring unconventional movement options.
+
+- class: style5
+  image: images/heist.png
+  link: heist.html
+  name: Heist
+  description: A local co-op experience where a "hacker" and "infiltrator" work together.
 
 - class: style4
   image: images/pic12.jpg
@@ -177,3 +177,9 @@
   link:  dating-sim.html
   name: Dating Sim
   description: (dating sim description here)
+
+- class: style6
+  image: images/pic07.jpg
+  link: mech.html
+  name: Unconventional Mech
+  description: Control a mech using unconventional means
