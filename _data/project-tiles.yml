@@ -5,13 +5,13 @@
   description: Tilt your head to tilt objects in the scene and roll a ball around.
 
 - class: style2
-  image: images/pic02.jpg
+  image: images/skateboard.png
   link: skateboard.html
   name: Movement - Skateboard
   description: Lean your body to move yourself while riding a skateboard.
 
 - class: style3
-  image: images/pic03.jpg
+  image: images/web_slinging.png
   link: web-slinging.html
   name: Movement - Web Slinging
   description: Point at grapple points and flick to launch yourself like Spider-Man.
@@ -29,13 +29,13 @@
   description: Fly around a city and blast cubes like Iron Man.
 
 - class: style4
-  image: images/pic04.jpg
+  image: images/parallel_worlds.png
   link: parallel-worlds.html
   name: Camera - Parallel Worlds
   description: Each eye of the headset sees a different version of the game world.
 
 - class: style5
-  image: images/pic04.jpg
+  image: images/hand_eyes.png
   link: camera-hands.html
   name: Camera - Hand Eyes
   description: Your eyes are attached to your hands instead of your head.
@@ -65,13 +65,13 @@
   description: Fling objects Angry Birds style from a distance.
   
 - class: style2
-  image: images/pic05.jpg
+  image: images/metroid_vr.png
   link: arm-cannon.html
   name: Metroid VR - Arm Cannon
   description: Charge and shoot like Samus Aran with her Chozo arm cannon. 
 
 - class: style6
-  image: images/pic06.jpg
+  image: images/projectile_deflect.png
   link: parry-projectiles.html
   name: Metroid VR - Parrying Projectiles
   description: Swing or block with your arm cannon to deflect projectiles.
@@ -83,25 +83,25 @@
   description: Play a sorcerer and cast spells like Marvel's Doctor Strange.
 
 - class: style2
-  image: images/pic07.jpg
+  image: images/grapple_beam.png
   link: grapple-beam.html
   name: Metroid VR - Grapple Beam
   description: Point at objects with your hand and tether them with a grapple beam.
 
 - class: style3
-  image: images/pic08.jpg
+  image: images/pockets.png
   link: pockets.html
   name: Deep Pockets
   description: Search your pockets for items, pull back whatever comes to hand.
 
 - class: style1
-  image: images/pic09.jpg
+  image: images/grappling_cook.png
   link: grappling-cook.html
   name: Grappling Cook
   description: Use an unorthodox multi-tool to prepare and cook ingredients.
 
 - class: style5
-  image: images/pic10.jpg
+  image: images/heist.png
   link: heist.html
   name: Heist
   description: A local co-op experience where a "hacker" and "infiltrator" work together.
@@ -167,13 +167,13 @@
   description: Fend off waves of encroaching dummies with your face laser, without harming innocent dummies.
 
 - class: style2
-  image: images/pic01.jpg
+  image: images/boomerang.png
   link:  boomerang.html
   name: Boomerang
   description: (boomerang description here)
 
 - class: style5
-  image: images/pic01.jpg
+  image: images/date.png
   link:  dating-sim.html
   name: Dating Sim
   description: (dating sim description here)
