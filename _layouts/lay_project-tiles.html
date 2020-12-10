@@ -1,0 +1,61 @@
+---
+layout: lay_default
+title: Developer Name | RIT Experimental VR Showcase
+---
+<!-- Main -->
+<div id="main">
+	<div class="inner">
+		<header>
+			<h1>
+				This is a collection of VR Experiments by five of us RIT students, as part of an Independent
+				Study.
+			</h1>
+			<p>
+				The focus of these projects was to determine what worked, what didn't work, and why. Click on
+				any of the projects below to read more about them.
+				<br><br>
+				Click one of the names below to show only projects they worked on.
+				<br>
+				<a href="mark-lipina.html">Mark Lipina</a> | 
+				<a href="patrick-mitchell.html">Patrick Mitchell</a> | 
+				<a href="kayleigh-east.html">Kayleigh East</a> | 
+				<a href="eddie-brazier.html">Eddie Brazier</a> | 
+				<a href="caleb-katzenstein.html">Caleb Katzenstein</a>
+			</p>
+		</header>
+
+		<!-- Project Tiles -->
+		<section class="tiles">
+			{% for item in site.data.project-tiles %}
+                {% if page.filter == "" or item.developers contains page.filter %}
+
+                    <article class="{{item.class}}">
+			        	<span class="image">
+			        		<img src="{{item.image}}" alt="" />
+			        	</span>
+			        	<a href="{{item.link}}">
+			        		{% assign last-index = item.name.size | plus: -1 %}
+			        		<h2>
+			        			{{ item.name | slice: 0, last-index }}<span
+			        				class="tile-header-last-letter">{{ item.name | slice: last-index }}</span>
+			        		</h2>
+			        		<div class="content">
+			        			<p>
+									{% capture dev-string %}
+            							{% for dev in item.developers %}, {{dev}}{% endfor %}
+									{% endcapture %}
+									{% if dev-string != "" %}
+										<i>{{ dev-string | remove_first: ', '}}</i>
+									{% endif %}
+									<br>
+									{{item.description}}
+								</p>
+			        		</div>
+			        	</a>
+                    </article>
+
+                {% endif %}
+			{% endfor %}
+		</section>
+	</div>
+</div>

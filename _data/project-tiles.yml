@@ -3,183 +3,249 @@
   link: skateboard.html
   name: Movement - Skateboard
   description: Lean your body to move yourself while riding a skateboard.
+  developers: 
+    - Eddie Brazier
 
 - class: style3
   image: images/web_slinging.png
   link: web-slinging.html
   name: Movement - Web Slinging
   description: Point at grapple points and flick to launch yourself like Spider-Man.
+  developers: 
+    - Eddie Brazier
 
 - class: style1
   image: images/vr_kayak.png
   link: kayaking-movement.html
   name: Movement - Kayaking
   description: Sit down and paddle around in a kayak.
+  developers: 
+    - Mark Lipina
 
 - class: style2
   image: images/vr_ironman.jpg
   link: iron-man.html
   name: Movement - Iron Man
   description: Fly around a city and blast cubes like Iron Man.
+  developers: 
+    - Mark Lipina
 
 - class: style4
   image: images/parallel_worlds.png
   link: parallel-worlds.html
   name: Camera - Parallel Worlds
   description: Each eye of the headset sees a different version of the game world.
+  developers: 
+    - Eddie Brazier
 
 - class: style5
   image: images/hand_eyes.png
   link: camera-hands.html
   name: Camera - Hand Eyes
   description: Your eyes are attached to your hands instead of your head.
+  developers: 
+    - Eddie Brazier
 
 - class: style6
   image: images/vr_fixed_camera.png
   link: fixed-camera.html
   name: Camera - Fixed Camera
   description: The player sees the world and their avatar from a third person fixed camera perspective.
+  developers: 
+    - Mark Lipina
 
 - class: style1
   image: images/vr_scope.png
   link: fps-scope-camera.html
   name: Camera - Scope Vision
   description: Toggle between standard first-person POV and video feed from your sniper scope.
+  developers: 
+    - Mark Lipina
 
 - class: style6
   image: images/eye-camera-thief.jpg
   link: eye-camera-thief.html
   name: Eye Camera Thief
   description: Attempt to steal valuables with only your peripheral vision to avoid detection.
+  developers: 
+    - Patrick Mitchell
 
 - class: style3
   image: images/overpowered-laser.jpg
   link: overpowered-face-laser.html
   name: Overpowered Face Laser
   description: Fend off waves of encroaching dummies with your face laser, without harming innocent dummies.
+  developers: 
+    - Patrick Mitchell
 
 - class: style2
   image: images/vr_force.jpg
   link: force-powers.html
   name: Force Power Object Interaction
   description: Grab objects at a distance and move them with Star-Wars-y force powers.
+  developers: 
+    - Mark Lipina
 
 - class: style2
   image: images/metroid_vr.png
   link: arm-cannon.html
   name: Metroid VR - Arm Cannon
-  description: Charge and shoot like Samus Aran with her Chozo arm cannon. 
+  description: Charge and shoot like Samus Aran with her Chozo arm cannon.
+  developers: 
+    - Eddie Brazier
 
 - class: style6
   image: images/projectile_deflect.png
   link: parry-projectiles.html
   name: Metroid VR - Parrying Projectiles
   description: Swing or block with your arm cannon to deflect projectiles.
+  developers: 
+    - Eddie Brazier
 
 - class: style6
   image: images/vr_doctor_strange.jpg
   link: doctor-strange.html
   name: Doctor Strange VR
   description: Play a sorcerer and cast spells like Marvel's Doctor Strange.
+  developers: 
+    - Mark Lipina
 
 - class: style2
   image: images/grapple_beam.png
   link: grapple-beam.html
   name: Metroid VR - Grapple Beam
   description: Point at objects with your hand and tether them with a grapple beam.
+  developers: 
+    - Eddie Brazier
 
 - class: style3
   image: images/pockets.png
   link: pockets.html
   name: Deep Pockets
   description: Search your pockets for items, pull back whatever comes to hand.
+  developers: 
+    - Eddie Brazier
+    - Kayleigh East
 
 - class: style1
   image: images/grappling_cook.png
   link: grappling-cook.html
   name: Grappling Cook
   description: Use an unorthodox multi-tool to prepare and cook ingredients.
+  developers: 
+    - Eddie Brazier
+    - Kayleigh East
 
 - class: style6
   image: images/jump-pads-vortexes.jpg
   link: jump-pads-and-vortexes.html
   name: Jump Pads and Vortexes
   description: Exploring unconventional movement options.
+  developers: 
+    - Caleb Katzenstein
 
 - class: style5
   image: images/heist.png
   link: heist.html
   name: Heist
   description: A local co-op experience where a "hacker" and "infiltrator" work together.
+  developers: 
+    - Eddie Brazier
+    - Kayleigh East
 
 - class: style4
   image: images/throw-head.jpg
   link: throw-head.html
   name: Throw Your Head
   description: Don't try this at home. Or ever.
+  developers: 
+    - Caleb Katzenstein
 
 - class: style1
   image: images/laser-propulsion.jpg
   link: laser-propulsion.html
   name: Laser Propulsion
   description: Propel yourself with the power of lasers!
+  developers: 
+    - Caleb Katzenstein
 
 - class: style3
   image: images/vr-brush.jpg
   link: physics-brush.html
   name: Physics Brush
   description: Draw 3D shapes with your motion controllers.
+  developers: 
+    - Caleb Katzenstein
 
 - class: style2
   image: images/bullet-head.jpg
   link: bullet-head.html
   name: Bullet Head
   description: Aim with your whole body!
+  developers: 
+    - Caleb Katzenstein
 
 - class: style5
   image: images/block-swords.png
   link: block-swords.html
   name: Block Swords
   description: Fight a training dummy with a pair of swords.
+  developers: 
+    - Patrick Mitchell
 
 - class: style4
   image: images/teleball.jpg
   link: teleball.html
   name: TeleBall
   description: Throw a ball to teleport to its landing spot.
+  developers: 
+    - Patrick Mitchell
 
 - class: style1
   image: images/teleshoot.jpg
   link: gesture-shoot-and-teleport.html
   name: Gesture Shoot and Teleport
   description: Fire bullets that teleport you to what they hit by thrusting / waving your hands.
+  developers: 
+    - Patrick Mitchell
 
 - class: style1
   image: images/pic01.jpg
   link: head-tilt-marble-maze.html
   name: Head Tilt Marble Maze
   description: Tilt your head to tilt objects in the scene and roll a ball around.
+  developers: 
+    - Patrick Mitchell
 
 - class: style4
   image: images/psychic-slingshot.png
   link: psychic-slingshot.html
   name: Psychic Slingshot
   description: Fling objects Angry Birds style from a distance.
+  developers: 
+    - Patrick Mitchell
 
 - class: style2
   image: images/boomerang.png
   link:  boomerang.html
   name: Boomerang
   description: (boomerang description here)
+  developers: 
+    - Kayleigh East
 
 - class: style5
   image: images/date.png
   link:  dating-sim.html
   name: Dating Sim
   description: (dating sim description here)
+  developers: 
+    - Kayleigh East
+    - Eddie Brazier
 
 - class: style6
   image: images/mech.jpg
   link: mech.html
   name: Unconventional Mech
   description: Control a mech with unconventional interfaces, like pulleys.
+  developers: 
+    - Caleb Katzenstein
