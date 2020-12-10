@@ -5,9 +5,8 @@ project-name: Eye Camera Thief
 developers:
     - Patrick Mitchell
 media:
-    type: image
-    link: images/pic13.jpg
-    alt: If your media is an image, put some alt text for it here
+    type: video
+    link: videos/eye_camera_thief.mp4
 ---
 <p>
     The idea behind this prototype was to prohibit the player from looking directly at something they needed to see. I
@@ -19,9 +18,12 @@ media:
     The biggest problem here was determining when something is “stolen” or “suspicious.” My initial idea was to make it
     so looking at an object displaced from its “home”—or looking at an object’s home while it’s not there—would trigger
     an alarm. This meant I had to take note of whenever an object left its home and trigger an alarm if any of those
-    objects entered the VR camera’s view frustum. I couldn’t get returning an object to avert the alarm working, nor
-    could I get the alarm to trigger if the object’s home was seen without its object. If I were to try to add that as
-    the prototype is now, an alarm would trigger if just a tiny bit of a displaced object’s home entered the VR camera’s
-    view frustum. I could potentially fix that by giving an object two homes: one that is strict and small, with little
-    leeway, and one that is bigger and more generous.
+    objects entered the VR camera’s view frustum. I wanted to make returning the object avert the alarm, and I wanted to
+    make the alarm trigger if an object’s home was seen without its object, but I didn't have time for either of those
+    things.
+</p>
+<p>
+    If I were to try to add that as the prototype is now, an alarm would trigger if just a tiny bit of a displaced
+    object’s home entered the VR camera’s view frustum. I could potentially fix that by giving an object two homes: one
+    that is strict and small, with little leeway, and one that is bigger and more generous.
 </p>
