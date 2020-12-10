@@ -101,7 +101,7 @@
   description: Use an unorthodox multi-tool to prepare and cook ingredients.
 
 - class: style6
-  image: images/pic11.jpg
+  image: images/jump-pads-vortexes.jpg
   link: jump-pads-and-vortexes.html
   name: Jump Pads and Vortexes
   description: Exploring unconventional movement options.
@@ -113,25 +113,25 @@
   description: A local co-op experience where a "hacker" and "infiltrator" work together.
 
 - class: style4
-  image: images/pic12.jpg
+  image: images/throw-head.jpg
   link: throw-head.html
   name: Throw Your Head
   description: Don't try this at home. Or ever.
 
 - class: style1
-  image: images/pic01.jpg
+  image: images/laser-propulsion.jpg
   link: laser-propulsion.html
   name: Laser Propulsion
   description: Propel yourself with the power of lasers!
 
 - class: style3
-  image: images/pic03.jpg
+  image: images/vr-brush.jpg
   link: physics-brush.html
   name: Physics Brush
   description: Draw 3D shapes with your motion controllers.
 
 - class: style2
-  image: images/pic07.jpg
+  image: images/bullet-head.jpg
   link: bullet-head.html
   name: Bullet Head
   description: Aim with your whole body!
@@ -179,7 +179,7 @@
   description: (dating sim description here)
 
 - class: style6
-  image: images/pic07.jpg
+  image: images/mech.jpg
   link: mech.html
   name: Unconventional Mech
   description: Control a mech using unconventional means
