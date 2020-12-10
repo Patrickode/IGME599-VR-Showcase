@@ -46,23 +46,23 @@
   name: Camera - Scope Vision
   description: Toggle between standard first-person POV and video feed from your sniper scope.
 
+- class: style6
+  image: images/eye-camera-thief.jpg
+  link: eye-camera-thief.html
+  name: Eye Camera Thief
+  description: Attempt to steal valuables with only your peripheral vision to avoid detection.
+
+- class: style3
+  image: images/overpowered-laser.jpg
+  link: overpowered-face-laser.html
+  name: Overpowered Face Laser
+  description: Fend off waves of encroaching dummies with your face laser, without harming innocent dummies.
+
 - class: style2
   image: images/vr_force.jpg
   link: force-powers.html
   name: Force Power Object Interaction
   description: Grab objects at a distance and move them with Star-Wars-y force powers.
-
-- class: style4
-  image: images/psychic-slingshot.png
-  link: psychic-slingshot.html
-  name: Psychic Slingshot
-  description: Fling objects Angry Birds style from a distance.
-
-- class: style1
-  image: images/pic01.jpg
-  link: head-tilt-marble-maze.html
-  name: Head Tilt Marble Maze
-  description: Tilt your head to tilt objects in the scene and roll a ball around.
 
 - class: style2
   image: images/metroid_vr.png
@@ -143,28 +143,28 @@
   description: Fight a training dummy with a pair of swords.
 
 - class: style4
-  image: images/pic07.jpg
+  image: images/teleball.jpg
   link: teleball.html
   name: TeleBall
   description: Throw a ball to teleport to its landing spot.
 
-- class: style6
-  image: images/pic07.jpg
-  link: eye-camera-thief.html
-  name: Eye Camera Thief
-  description: Attempt to steal valuables with only your peripheral vision to avoid detection.
-
 - class: style1
-  image: images/pic07.jpg
+  image: images/teleshoot.jpg
   link: gesture-shoot-and-teleport.html
   name: Gesture Shoot and Teleport
   description: Fire bullets that teleport you to what they hit by thrusting / waving your hands.
 
-- class: style3
-  image: images/pic07.jpg
-  link: overpowered-face-laser.html
-  name: Overpowered Face Laser
-  description: Fend off waves of encroaching dummies with your face laser, without harming innocent dummies.
+- class: style1
+  image: images/pic01.jpg
+  link: head-tilt-marble-maze.html
+  name: Head Tilt Marble Maze
+  description: Tilt your head to tilt objects in the scene and roll a ball around.
+
+- class: style4
+  image: images/psychic-slingshot.png
+  link: psychic-slingshot.html
+  name: Psychic Slingshot
+  description: Fling objects Angry Birds style from a distance.
 
 - class: style2
   image: images/boomerang.png
@@ -182,4 +182,4 @@
   image: images/mech.jpg
   link: mech.html
   name: Unconventional Mech
-  description: Control a mech using unconventional means
+  description: Control a mech with unconventional interfaces, like pulleys.
