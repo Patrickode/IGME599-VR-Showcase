@@ -226,7 +226,7 @@
     - Patrick Mitchell
 
 - class: style2
-  image: images/basketball.png
+  image: images/basketBall.png
   link:  basketball.html
   name: Basketball
   description: Dribble a ball down the court.
