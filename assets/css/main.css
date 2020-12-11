@@ -3334,6 +3334,11 @@ input, select, textarea {
 	#header {
 		padding-top: 5em;
 	}
+	
+	/* Make the links to each dev's project-tiles page change weight when on the corresponding page */
+	.current-filter {
+		font-weight: bold;
+	}
 
 	/* Make the project tiles on the main page a good distance from the header */
 	header > p {

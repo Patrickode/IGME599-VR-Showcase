@@ -2,6 +2,8 @@
 layout: lay_default
 title: Developer Name | RIT Experimental VR Showcase
 ---
+{% assign has-filter = page.filter != ""%}
+
 <!-- Main -->
 <div id="main">
 	<div class="inner">
@@ -16,11 +18,25 @@ title: Developer Name | RIT Experimental VR Showcase
 				<br><br>
 				Click one of the names below to show only projects they worked on.
 				<br>
-				<a href="mark-lipina.html">Mark Lipina</a> | 
-				<a href="patrick-mitchell.html">Patrick Mitchell</a> | 
-				<a href="kayleigh-east.html">Kayleigh East</a> | 
-				<a href="eddie-brazier.html">Eddie Brazier</a> | 
-				<a href="caleb-katzenstein.html">Caleb Katzenstein</a>
+				
+				{% comment %} Make link bold and return to index if the filter is the current page {% endcomment %}
+				{% capture filterless %}<a href="index.html" class="current-filter">{% endcapture %}
+				
+				<!-- The HTML comments prevent linebreaks in the code from rendering as spaces -->
+				{% if page.name contains "mark-lipina" %}{{ filterless }}
+				{% else %}<a href="mark-lipina.html">{% endif %}Mark Lipina</a>&emsp13;|&emsp13;<!--
+					
+				-->{% if page.name contains "patrick-mitchell" %}{{ filterless }}
+				{% else %}<a href="patrick-mitchell.html">{% endif %}Patrick Mitchell</a>&emsp13;|&emsp13;<!--
+					
+				-->{% if page.name contains "kayleigh-east" %}{{ filterless }}
+				{% else %}<a href="kayleigh-east.html">{% endif %}Kayleigh East</a>&emsp13;|&emsp13;<!--
+					
+				-->{% if page.name contains "eddie-brazier" %}{{ filterless }}
+				{% else %}<a href="eddie-brazier.html">{% endif %}Eddie Brazier</a>&emsp13;|&emsp13;<!--
+					
+				-->{% if page.name contains "caleb-katzenstein" %}{{ filterless }}
+				{% else %}<a href="caleb-katzenstein.html">{% endif %}Caleb Katzenstein</a>
 			</p>
 		</header>
 
