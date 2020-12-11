@@ -226,10 +226,18 @@
     - Patrick Mitchell
 
 - class: style2
+  image: images/basketball.png
+  link:  basketball.html
+  name: Basketball
+  description: Dribble a ball down the court.
+  developers: 
+    - Kayleigh East
+
+- class: style1
   image: images/boomerang.png
   link:  boomerang.html
   name: Boomerang
-  description: (boomerang description here)
+  description: Throw a cube and watch it return.
   developers: 
     - Kayleigh East
 
@@ -237,7 +245,7 @@
   image: images/date.png
   link:  dating-sim.html
   name: Dating Sim
-  description: (dating sim description here)
+  description: Take a rectangle out to dinner, watch it judge you.
   developers: 
     - Kayleigh East
     - Eddie Brazier
