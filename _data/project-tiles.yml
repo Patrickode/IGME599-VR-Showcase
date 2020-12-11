@@ -209,19 +209,19 @@
   developers: 
     - Patrick Mitchell
 
-- class: style1
-  image: images/pic01.jpg
-  link: head-tilt-marble-maze.html
-  name: Head Tilt Marble Maze
-  description: Tilt your head to tilt objects in the scene and roll a ball around.
-  developers: 
-    - Patrick Mitchell
-
 - class: style4
   image: images/psychic-slingshot.png
   link: psychic-slingshot.html
   name: Psychic Slingshot
   description: Fling objects Angry Birds style from a distance.
+  developers: 
+    - Patrick Mitchell
+
+- class: style1
+  image: images/head-tilt.jpg
+  link: head-tilt-marble-maze.html
+  name: Head Tilt Marble Maze
+  description: Tilt your head to tilt objects in the scene and roll a ball around.
   developers: 
     - Patrick Mitchell
 
