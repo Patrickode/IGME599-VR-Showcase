@@ -3427,6 +3427,19 @@ input, select, textarea {
 		font-weight: 501;
 	}
 
+	/* Space build / source-code buttons */
+	.project-div .button {
+		margin-top: 2.5em;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+	.project-div .button:first-of-type {
+		margin-left: 0;
+	}
+	.project-div .button:last-of-type {
+		margin-right: 0;
+	}
+
 	/* If a tile image isn't the right size, set it's smallest dimension to fill the tile (will cause clipping) */
 	.tiles article > .image {
 		height: 100%;

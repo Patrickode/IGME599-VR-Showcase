@@ -9,7 +9,8 @@ title: Project Name - RIT Experimental VR Showcase
         <h2 class="project-developer-header">
             {% comment %} Put ", [name of dev]" for each dev, then remove the first ", ". {% endcomment %}
             {% capture dev-string %}
-            {% for dev in page.developers %}, {{dev}}{% endfor %}
+            {% for dev in page.developers %}, <a 
+                href="{{dev | downcase | replace: " ", "-" | append: ".html"}}">{{dev}}</a>{% endfor %}
             {% endcapture %}
             {{ dev-string | remove_first: ', '}}
         </h2>
@@ -40,5 +41,12 @@ title: Project Name - RIT Experimental VR Showcase
         </span>
 
         {{ content }}
+
+        {% if page.build and page.build != "" %}
+            <a href="{{ page.build }}" class="button fas fa-file-download">Download Build</a>
+        {% endif %}
+        {% if page.source-code and page.build != "" %}
+            <a href="{{ page.source-code }}" class="button {% if page.source-code contains "github" %}icon brands fa-github{% else %}fas fa-external-link-alt{% endif %}">View Source Code</a>
+        {% endif %}
     </div>
 </div>
