@@ -4,7 +4,7 @@
   name: Movement - Skateboard
   description: Lean your body to move yourself while riding a skateboard.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style3
   image: images/web_slinging.png
@@ -12,7 +12,7 @@
   name: Movement - Web Slinging
   description: Point at grapple points and flick to launch yourself like Spider-Man.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style1
   image: images/vr_kayak.png
@@ -36,7 +36,7 @@
   name: Camera - Parallel Worlds
   description: Each eye of the headset sees a different version of the game world.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style5
   image: images/hand_eyes.png
@@ -44,7 +44,7 @@
   name: Camera - Hand Eyes
   description: Your eyes are attached to your hands instead of your head.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style6
   image: images/vr_fixed_camera.png
@@ -92,7 +92,7 @@
   name: Metroid VR - Arm Cannon
   description: Charge and shoot like Samus Aran with her Chozo arm cannon.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style6
   image: images/projectile_deflect.png
@@ -100,7 +100,7 @@
   name: Metroid VR - Parrying Projectiles
   description: Swing or block with your arm cannon to deflect projectiles.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style6
   image: images/vr_doctor_strange.jpg
@@ -116,7 +116,7 @@
   name: Metroid VR - Grapple Beam
   description: Point at objects with your hand and tether them with a grapple beam.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style3
   image: images/pockets.png
@@ -124,7 +124,7 @@
   name: Deep Pockets
   description: Search your pockets for items, pull back whatever comes to hand.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
     - Kayleigh East
 
 - class: style1
@@ -133,7 +133,7 @@
   name: Grappling Cook
   description: Use an unorthodox multi-tool to prepare and cook ingredients.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
     - Kayleigh East
 
 - class: style6
@@ -150,7 +150,7 @@
   name: Heist
   description: A local co-op experience where a "hacker" and "infiltrator" work together.
   developers: 
-    - Eddie Brazier
+    - Chloe Brazier
     - Kayleigh East
 
 - class: style4
@@ -248,7 +248,7 @@
   description: Take a rectangle out to dinner, watch it judge you.
   developers: 
     - Kayleigh East
-    - Eddie Brazier
+    - Chloe Brazier
 
 - class: style6
   image: images/mech.jpg
